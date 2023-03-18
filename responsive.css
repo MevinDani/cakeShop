@@ -1,3 +1,9 @@
+@media (max-height:1030px) {
+    .seller-section .carousel-inner .card {
+        height: 50vh;
+    }
+}
+
 @media (min-width:990px) {
     .seller-section .carousel-indicators {
         position: absolute;
@@ -46,7 +52,7 @@
     /* seller-section */
 
     .seller-section .carousel-inner .card {
-        height: 50vh;
+        height: 26vh;
     }
 
     .seller-section .carousel-inner .card img {
@@ -122,7 +128,7 @@
 
 @media (max-width:715px) {
     .seller-section .carousel-inner .card {
-        height: 40vh;
+        height: 22vh;
     }
 
     .seller-section .carousel-inner .card img {
@@ -231,7 +237,7 @@
 
 @media (max-width:576px) {
     .seller-section .carousel-inner .card {
-        height: 40vh;
+        height: 20vh;
     }
 
     .seller-section .carousel-inner .card img {
