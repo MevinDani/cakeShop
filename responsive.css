@@ -45,9 +45,9 @@
 
     /* seller-section */
 
-    .seller-section .carousel-inner .card {
+    /* .seller-section .carousel-inner .card {
         height: 50vh;
-    }
+    } */
 
     .seller-section .carousel-inner .card img {
         height: 150px;
@@ -121,9 +121,9 @@
 }
 
 @media (max-width:715px) {
-    .seller-section .carousel-inner .card {
+    /* .seller-section .carousel-inner .card {
         height: 40vh;
-    }
+    } */
 
     .seller-section .carousel-inner .card img {
         height: 110px;
@@ -230,9 +230,9 @@
 }
 
 @media (max-width:576px) {
-    .seller-section .carousel-inner .card {
+    /* .seller-section .carousel-inner .card {
         height: 40vh;
-    }
+    } */
 
     .seller-section .carousel-inner .card img {
         height: 100px;
@@ -345,14 +345,15 @@
         margin-top: 350px;
         padding: 0;
         margin-bottom: 0;
+
     }
 
     .reviews-section {
         background-color: rgb(141, 255, 211);
         border-radius: 0.9375rem;
-        margin: 10px;
-        padding: 10px;
-        height: 380px;
+        margin: 5px;
+        padding: 5px;
+        height: 500px;
     }
 
     .reviews-section h2,
