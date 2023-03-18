@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/2d14bd8dc6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./app.css">
+    <link rel="stylesheet" href="./responsive.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/fav/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/fav/favicon-16x16.png">
+    <link rel="manifest" href="images/fav/site.webmanifest">
+    <title>CakeShop</title>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <nav class="navbar navbar-expand-lg navigation-wrap">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="./images/home.png" class="img-fluid" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-cake-candles fa-2x navbar-toggler"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#home">
+                                <span class="navItems">Cakes</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#best-sellers">
+                                <span class="navItems">Best Sellers</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#reviews">
+                                <span class="navItems">Reviews</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">
+                                <span class="navItems">About Us</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#user">
+                                <span class="navItems"><i class="fa-solid fa-user"></i></span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#cart">
+                                <span class="navItems"><i class="fa-solid fa-cart-shopping"></i></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- section-1 top-banner -->
+    <section id="home">
+        <div class="top-banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-5 col-md-6">
+                        <h1>Welcome to CakeShop</h1>
+                        <p>We focus on Birthday and Party cakes only. Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Esse eveniet repudiandae tenetur delectus cupiditate accusamus culpa
+                            excepturi non.
+                        </p>
+                        <span class="main-btn-span"><button class="main-btn mt-3">Order Online</button></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- arrivals -->
+    <section id="best-sellers">
+        <div class="seller-section">
+            <div class="container">
+                <div class="row justify-content-center arrival-cont">
+                    <div class="text-center col-sm-12 seller-head">
+                        <h2 style="color:rgb(255, 50, 84);">New Arrivals</h2>
+                    </div>
+                </div>
+                <div id="carouselExampleIndicators" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-6 mb-3 cake-cont">
+                                    <div class="card">
+                                        <img src="./images/cake/c1.jpg" class="img-fluid" alt="">
+                                        <div class="p-2 text-center">
+                                            <h4>Birthday Cake</h4>
+                                            <span>$20.50 <del>$30.75</del></span><br>
+                                            <button class="mt-1 main-btn">Order Now</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-6 mb-3 cake-cont">
+                                    <div class="card">
+                                        <img src="./images/cake/c2.jpg" class="img-fluid" alt="">
+                                        <div class="p-2 text-center">
+                                            <h4>Carrot Cake</h4>
+                                            <span>$10.50 <del>$13.75</del></span><br>
+                                            <button class="mt-1 main-btn">Order Now</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-6 mb-3 cake-cont">
+                                    <div class="card">
+                                        <img src="./images/cake/c3.jpg" class="img-fluid" alt="">
+                                        <div class="p-2 text-center">
+                                            <h4>Chocalate Cake</h4>
+                                            <span>$15.50 <del>$18.75</del></span><br>
+                                            <button class="mt-1 main-btn">Order Now</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-6 mb-3 cake-cont">
+                                    <div class="card">
+                                        <img src="./images/cake/c4.jpg" class="img-fluid" alt="">
+                                        <div class="p-2 text-center">
+                                            <h4>Genoise Cake</h4>
+                                            <span>$10.50 <del>$13.75</del></span><br>
+                                            <button class="mt-1 main-btn">Order Now</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-6 mb-3 cake-cont">
+                                    <div class="card">
+                                        <img src="./images/cake/c5.jpg" class="img-fluid" alt="">
+                                        <div class="p-2 text-center">
+                                            <h4>Opera Cake</h4>
+                                            <span>$18.50 <del>$25.75</del></span><br>
+                                            <button class="mt-1 main-btn">Order Now</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-6 mb-3 cake-cont">
+                                    <div class="card">
+                                        <img src="./images/cake/c6.jpg" class="img-fluid" alt="">
+                                        <div class="p-2 text-center">
+                                            <h4>Devil’s Food Cake</h4>
+                                            <span>$20.50 <del>$35.75</del></span><br>
+                                            <button class="mt-1 main-btn">Order Now</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-6 mb-3">
+                                    <div class="card">
+                                        <img src="./images/cake/c7.jpg" class="img-fluid" alt="">
+                                        <div class="p-2 text-center">
+                                            <h4>Chocalate Cake</h4>
+                                            <span>$20.50 <del>$30.75</del></span><br>
+                                            <button class="mt-1 main-btn">Order Now</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-6 mb-3">
+                                    <div class="card">
+                                        <img src="./images/cake/c8.jpg" class="img-fluid" alt="">
+                                        <div class="p-2 text-center">
+                                            <h4>Birthday Cake</h4>
+                                            <span>$10.50 <del>$13.75</del></span><br>
+                                            <button class="mt-1 main-btn">Order Now</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-6 mb-3">
+                                    <div class="card">
+                                        <img src="./images/cake/c9.jpg" class="img-fluid" alt="">
+                                        <div class="p-2 text-center">
+                                            <h4>Butter Cake</h4>
+                                            <span>$15.50 <del>$18.75</del></span><br>
+                                            <button class="mt-1 main-btn">Order Now</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-6 mb-3">
+                                    <div class="card">
+                                        <img src="./images/cake/c10.jpg" class="img-fluid" alt="">
+                                        <div class="p-2 text-center">
+                                            <h4>Genoise Cake</h4>
+                                            <span>$10.50 <del>$13.75</del></span><br>
+                                            <button class="mt-1 main-btn">Order Now</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-6 mb-3">
+                                    <div class="card">
+                                        <img src="./images/cake/c11.jpg" class="img-fluid" alt="">
+                                        <div class="p-2 text-center">
+                                            <h4>Carrot Cake</h4>
+                                            <span>$18.50 <del>$25.75</del></span><br>
+                                            <button class="mt-1 main-btn">Order Now</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-6 mb-3">
+                                    <div class="card">
+                                        <img src="./images/cake/c12.jpg" class="img-fluid" alt="">
+                                        <div class="p-2 text-center">
+                                            <h4>Berrie Cake</h4>
+                                            <span>$20.50 <del>$35.75</del></span><br>
+                                            <button class="mt-1 main-btn">Order Now</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- parallel -->
+    <section id="sale-add">
+        <div class="sale-add-section">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-lg-9 col-md-12">
+                        <h2>Sale <span class="sale-span">20%</span> off for Birthday Cakes</h2>
+                    </div>
+                    <div class="col-lg-3 col-md-12 mt-lg-0 mt-4">
+                        <button class="main-btn">Book Online</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- reviews -->
+    <section id="reviews">
+        <div class="reviews-section">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-sm-12 text-center mb-3">
+                        <h2 style="color:rgb(255, 50, 84);">User Reviews</h2>
+                    </div>
+                    <div class=" col-sm-12 col-lg-10 reviews-carousel">
+                        <div id="carousel2ExampleIndicators" class="carousel slide">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carousel2ExampleIndicators" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carousel2ExampleIndicators" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carousel2ExampleIndicators" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="carousel-caption">
+                                        <img src="./images/face/face1.jpg" alt="" class="img-fluid">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+                                            veritatis
+                                            iure dolorem cupiditate saepe.
+                                        </p>
+                                        <h5>Maccy Doe</h5>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="carousel-caption">
+                                        <img src="./images/face/face2.jpg" alt="" class="img-fluid">
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut, nulla
+                                            omnis? At
+                                            ratione, officiis culpa totam.
+                                        </p>
+                                        <h5>John Smith</h5>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="carousel-caption">
+                                        <img src="./images/face/face3.jpg" alt="" class="img-fluid">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+                                            reiciendis rem necessitatibus.
+                                        </p>
+                                        <h5>Chris Gill</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about -->
+    <section id="about">
+        <div class="about-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="about-content text-center pt-2">
+                            <h2 style="color:rgb(255, 50, 84);">About Us</h2>
+                            <h3>
+                                A bakery spreads its sweet aroma while converting grain to daily bread.
+                            </h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti, et. Maiores non eum
+                                quas enim quae nesciunt doloremque.
+                            </p>
+                            <button class="main-btn">Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- download app -->
+    <section id="download">
+        <div class="download-section">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6 mb-4 order-2 order-lg-1">
+                        <div class="download-content">
+                            <h2>Download our moblie app</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <div class="d-flex flex-wrap mt-4">
+                                <a href=""><img src="./images/ap1.png" class="me-3 img-fluid"
+                                        style="height: 50px;width: 150px;" alt=""></a>
+                                <a href=""><img src="./images/ap2.png" class="me-3 img-fluid"
+                                        style="height: 50px;width: 150px;" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4 order-1 order-lg-2 download-img">
+                        <img src="./images/phone.png" class="img-fluid" alt="" style="height: 450px;width: 250px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer id="footer">
+        <div class="footer py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <a href="#" class="footer-link">Register</a>
+                        <a href="#" class="footer-link">Log In</a>
+                        <a href="#" class="footer-link">Team</a>
+                        <a href="#" class="footer-link">Follow Us</a>
+
+                        <div class="footer-social pt-4 text-center">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                            <a href="#"><i class="fab fa-dribbble"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-sm-12">
+                        <div class="text-center pt-5">
+                            <p class="text-light">© 2023. CakeShop. All rights reserved.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

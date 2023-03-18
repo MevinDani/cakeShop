@@ -1,0 +1,457 @@
+@media (min-width:990px) {
+    .seller-section .carousel-indicators {
+        position: absolute;
+        right: 0;
+        bottom: -3%;
+        left: 0;
+        z-index: 2;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        margin-right: 15%;
+        margin-bottom: 1rem;
+        margin-left: 15%;
+        list-style: none;
+    }
+}
+
+@media (max-width:991px) {
+
+    /* custom css */
+    h1 {
+        font-size: 2.1875rem;
+    }
+
+    /* navbar */
+
+    .navigation-wrap {
+        text-align: center;
+    }
+
+    .navigation-wrap .nav-link {
+        line-height: 1.875rem;
+    }
+
+    /* Banner Design */
+    .top-banner {
+        padding: 4.375rem 0 2.375rem;
+    }
+
+
+    .download-section {
+        padding-left: 80px;
+        margin-top: 50px;
+    }
+
+    /* seller-section */
+
+    .seller-section .carousel-inner .card {
+        height: 50vh;
+    }
+
+    .seller-section .carousel-inner .card img {
+        height: 150px;
+        background-size: cover;
+    }
+
+    .seller-section .carousel-inner .card h4 {
+        font-size: 15px;
+    }
+
+    .seller-section .carousel-inner .card span {
+        font-size: 12px;
+        padding-bottom: 0;
+    }
+
+    .seller-section .carousel-inner .card button {
+        font-size: 12px;
+    }
+}
+
+@media (max-width:767.5px) {
+    .seller-section .container {
+        margin-left: 8px;
+        padding: 0;
+    }
+
+    .seller-section .seller-head {
+        padding-left: 39%;
+    }
+
+    .seller-section .container #carouselExampleIndicators {
+        width: 138%;
+
+    }
+}
+
+@media (max-width:754.5px) {
+    .seller-section .container {
+        margin-left: 8px;
+        padding: 0;
+    }
+
+    .seller-section .seller-head {
+        padding-left: 35%;
+    }
+
+    .seller-section .container #carouselExampleIndicators {
+        width: 135%;
+
+    }
+
+    /* .seller-section .carousel-inner .card {
+        height: 40vh;
+    } */
+}
+
+@media (max-width:740px) {
+    .seller-section .container {
+        margin-left: 8px;
+        padding: 0;
+    }
+
+    .seller-section .seller-head {
+        padding-left: 30%;
+    }
+
+    .seller-section .container #carouselExampleIndicators {
+        width: 130%;
+
+    }
+}
+
+@media (max-width:715px) {
+    .seller-section .carousel-inner .card {
+        height: 40vh;
+    }
+
+    .seller-section .carousel-inner .card img {
+        height: 110px;
+        background-size: cover;
+    }
+
+    .seller-section .carousel-inner .card h4 {
+        font-size: 12px;
+    }
+
+    .seller-section .carousel-inner .card span {
+        font-size: 10px;
+        padding-bottom: 0;
+    }
+
+    .seller-section .carousel-inner .card button {
+        font-size: 10px;
+    }
+
+    .seller-section .container {
+        margin-left: 8px;
+        padding: 0;
+    }
+
+    .seller-section .seller-head {
+        padding-left: 30%;
+    }
+
+    .seller-section .container #carouselExampleIndicators {
+        width: 125%;
+
+    }
+}
+
+@media (max-width:686px) {
+    .seller-section .container {
+        margin-left: 8px;
+        padding: 0;
+    }
+
+    .seller-section .seller-head {
+        padding-left: 25%;
+    }
+
+    .seller-section .container #carouselExampleIndicators {
+        width: 120%;
+
+    }
+}
+
+@media (max-width:665px) {
+    .seller-section .container {
+        margin-left: 8px;
+        padding: 0;
+    }
+
+    .seller-section .seller-head {
+        padding-left: 18%;
+    }
+
+    .seller-section .container #carouselExampleIndicators {
+        width: 115%;
+
+    }
+}
+
+@media (max-width:633px) {
+    .seller-section .container {
+        margin-left: 8px;
+        padding: 0;
+    }
+
+    .seller-section .seller-head {
+        padding-left: 16%;
+    }
+
+    .seller-section .container #carouselExampleIndicators {
+        width: 110%;
+
+    }
+}
+
+@media (max-width:605px) {
+    .seller-section .container {
+        margin-left: 8px;
+        padding: 0;
+    }
+
+    .seller-section .seller-head {
+        padding-left: 8%;
+    }
+
+    .seller-section .container #carouselExampleIndicators {
+        width: 105%;
+    }
+}
+
+@media (max-width:580px) {
+    .seller-section .container {
+        margin-left: 3px;
+        padding: 0;
+    }
+
+}
+
+@media (max-width:576px) {
+    .seller-section .carousel-inner .card {
+        height: 40vh;
+    }
+
+    .seller-section .carousel-inner .card img {
+        height: 100px;
+        background-size: cover;
+    }
+
+    .seller-section .carousel-inner .card h4 {
+        font-size: 12px;
+    }
+
+    .seller-section .carousel-inner .card span {
+        font-size: 10px;
+        padding-bottom: 0;
+    }
+
+    .seller-section .carousel-inner .card button {
+        font-size: 10px;
+    }
+
+    .seller-section .container {
+        margin: 0px;
+        padding: 0;
+    }
+
+    /* .seller-section .seller-head {
+        padding: 0;
+        width: 100%;
+        text-align: center;
+    } */
+
+    .seller-section .arrival-cont {
+        width: 100%;
+        text-align: center;
+    }
+
+    .seller-section .container #carouselExampleIndicators {
+        width: 100%;
+    }
+
+    /* .seller-section .carousel-inner .cake-cont {
+        width: 50%;
+    } */
+}
+
+
+@media (max-width:768px) {
+    .seller-section .card img {
+        height: 20rem;
+    }
+
+    .reviews-section .carousel-item {
+        margin-top: 45px;
+        padding: 10rem 3.125rem;
+        border-radius: 0.9375rem;
+
+    }
+
+    .reviews-section .carousel-item img {
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        padding: 0.125rem;
+        /* border: 0.125rem solid var(--primary-color); */
+    }
+
+    .reviews-section .reviews-carousel {
+        height: 450px;
+    }
+
+    .reviews-section .carousel-item .carousel-caption p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+        /* padding: 0.625rem 11%; */
+    }
+
+    .reviews-section .carousel-item h5 {
+        font-size: 1.2rem;
+    }
+
+    .download-section {
+        padding-left: 80px;
+        margin-top: 50px;
+    }
+
+    .download-section .download-img {
+        padding-left: 100px;
+    }
+
+}
+
+@media (max-width:650px) {
+    .download-section {
+        padding-left: 50px;
+        margin-top: 50px;
+    }
+
+    .download-section .download-img img {
+        height: 400px;
+        width: 200px;
+    }
+
+    .download-section .download-img {
+        padding-left: 120px;
+    }
+
+}
+
+@media (max-width:503.5px) {
+    .reviews-section .carousel-item {
+        margin-top: 350px;
+        padding: 0;
+        margin-bottom: 0;
+    }
+
+    .reviews-section {
+        background-color: rgb(141, 255, 211);
+        border-radius: 0.9375rem;
+        margin: 10px;
+        padding: 10px;
+        height: 380px;
+    }
+
+    .reviews-section h2,
+    h4 {
+        font-size: 25px;
+        line-height: 1rem;
+    }
+
+    .download-section .download-img {
+        padding-left: 50px;
+    }
+
+    .footer .footer-link,
+    .footer a i {
+        padding: 0 0.7rem;
+    }
+
+
+}
+
+
+/* sale add */
+
+@media (max-width:458px) {
+    .sale-add-section h2 {
+        font-size: 1.6rem;
+        font-weight: 700;
+        line-height: 1;
+    }
+
+    .sale-add-section .sale-span {
+        font-size: 30px;
+    }
+}
+
+@media (max-width:434px) {
+    .download-section .download-img {
+        padding-left: 25px;
+    }
+}
+
+@media (max-width:426px) {
+    .reviews-section .carousel-item {
+        margin-top: 300px;
+        padding: 0;
+        margin-bottom: 0;
+    }
+
+    .reviews-section {
+        background-color: rgb(141, 255, 211);
+        border-radius: 0.9375rem;
+        margin: 10px;
+        padding: 5px;
+        height: 350px;
+    }
+
+    .reviews-section h2 {
+        font-size: 22px;
+        line-height: 1rem;
+    }
+
+    .reviews-section .carousel-item .carousel-caption p {
+        font-size: 13px;
+        line-height: 1rem;
+    }
+
+}
+
+@media (max-width:361px) {
+    .reviews-section .carousel-item {
+        margin-top: 350px;
+        padding: 0;
+        margin-bottom: 0;
+    }
+
+    .reviews-section {
+        background-color: rgb(141, 255, 211);
+        border-radius: 0.9375rem;
+        margin: 10px;
+        padding: 5px;
+        height: 380px;
+    }
+
+    .reviews-section h2 {
+        font-size: 20px;
+        line-height: 1rem;
+    }
+
+    .download-section .download-img {
+        padding-left: 0px;
+    }
+
+}
+
+@media (max-width:281px) {
+    .reviews-section .carousel-item img {
+        height: 120px;
+        width: 120px;
+        border-radius: 50%;
+        padding: 0.125rem;
+    }
+}
