@@ -203,7 +203,7 @@ header {
 .sale-add-section {
     width: 100%;
     background: url(./images/about/about4.jpg);
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0 4.495rem;
