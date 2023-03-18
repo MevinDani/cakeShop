@@ -40,7 +40,7 @@
 
     .download-section {
         padding-left: 80px;
-        margin-top: 50px;
+        /* margin-top: 50px; */
     }
 
     /* seller-section */
@@ -314,7 +314,7 @@
 
     .download-section {
         padding-left: 80px;
-        margin-top: 50px;
+        /* margin-top: 50px; */
     }
 
     .download-section .download-img {
@@ -326,7 +326,7 @@
 @media (max-width:650px) {
     .download-section {
         padding-left: 50px;
-        margin-top: 50px;
+        /* margin-top: 50px; */
     }
 
     .download-section .download-img img {

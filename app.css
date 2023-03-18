@@ -280,11 +280,56 @@ h3 {
     color: black;
 }
 
+/* team */
+
+.team .card {
+    background-color: rgb(221, 252, 255);
+    border-radius: 0.625rem;
+    border: .1rem solid rgb(118, 203, 255);
+    text-align: center;
+}
+
+.team .card img {
+    border-radius: 0.625rem 0.625rem 0 0;
+    height: 300px;
+    object-fit: cover;
+}
+
+.team h4 {
+    color: rgb(255, 50, 84);
+    text-transform: uppercase;
+}
+
+.team h6,
+.team p {
+    color: black;
+}
+
+
+.team .social-icon i {
+    font-size: 1.125rem;
+    transition: .3s all ease;
+    margin: .3125rem;
+    background-color: white;
+    color: rgb(0, 119, 255);
+    border-radius: 50%;
+    width: 2.1875rem;
+    height: 2.1875rem;
+    line-height: 2.1875rem;
+}
+
+.team .social-icon i:hover {
+    background-color: white;
+    color: rgb(255, 0, 47);
+}
+
+
 /* download-section */
 
 .download-section {
     padding-left: 200px;
-    margin-top: 50px;
+    /* margin-top: 10px; */
+    background-color: antiquewhite;
 }
 
 .download-section .download-content .phone {
